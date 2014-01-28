@@ -1,0 +1,86 @@
+\documentclass{report}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\usepackage{natbib}
+\makeindex
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+
+\begin{document}
+
+\author{Ross T. Harrison}
+\title{Lab Journal}
+\date{Spring 2014}
+\maketitle
+
+\begin{abstract}
+This is a journal of notes and experiments conducted as part of the requirements for ENGLISH 4/898 - SEC 002 \emph{Characterization in Literature: a Macroanalysis}
+\end{abstract}
+
+\section{Character Social Networks}: (January 26, 2014)
+
+A reocurring idea is that character archetype can at least in part be determined by relations with other characters. This problem can be broken into several subproblems, first would be determining character existence, second the existance of a relationship between those characters, and thirdly the nature of that relationship. 
+
+The first subproblem is the most quantifiable. Since for many novels a complete, or semi-complete list of characters is available. Success metrics are therefore readily available. The second and third seem more difficult. Defining a correct answer for character relationship existence, much less quality, is much more difficult, if not intractable. 
+
+Relationship existance at least seems to have a possible solution, comparing with human created character networks. This has the obvious drawback of being extremely labor intensive in constructing a test set. Therefore, unless such a corpus is readily available, a prudent course of action might be to investigate network creation in a more qualitative manner.
+
+\section{Character Network Construction}: (January 26, 2014)
+
+I'm interested in investigating networks 
+\cite{park_structural_2013}
+Character networks can be constructed using dialogue (Elso, Dames McKewon)
+Or by simple coocurence in text (Paper I read, or LOTR project)
+
+I'm interested in investigated coocurrence since it seems the simplest to 
+
+\bibliographystyle{apa}
+\bibliography{journal.bib}
+
+\end{document}

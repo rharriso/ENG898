@@ -1,0 +1,39 @@
+\documentclass{report}
+\usepackage{natbib}
+\makeindex
+
+\begin{document}
+
+\author{Matthew L. Jockers}
+\title{Lab Journal}
+\date{Spring 2014}
+\maketitle
+
+\begin{abstract}
+This is a journal of notes and experiments conducted as part of the requirements for ENGLISH 4/898 - SEC 002 \emph{Characterization in Literature: a Macroanalysis}
+\end{abstract}
+
+\section{Vladimir Propp's \emph{Morphology of the Folktale}: (Reviewed \date{1/21/14})}
+
+Vladimir Propp's \emph{Morphology of the Folktale} was originally published in 1928 and not translated into English until 1958.  The edition I have examined here is from the 1968 edition published by the American Folklore Society (\cite{propp_[_1968}).  The book is a classic of Russian Formalist thinking.  Propp's primary goal in the book is to analyze plot and he does this by describing a series of what he terms \emph{functions}.  Propp is intent on developing a classification system for plot movement and so he begins with a general discussion of prior work in this area.  Ultimately he argues that the prior work is a mess for being far too subjectively derived and too open to contradiction.  
+
+He then sets out to develop a new classification system based on the linear sequence of plot elements or functions he sets out to describe.  These are essentially structural elements.  Propp would be criticized later for ignoring context (cultural and lexical) (see Claude Lévi-Strauss in \cite{propp_theory_1984}). These functions are closely tied to characters and in the course of describing the functions in the plot, Propp outlines a set of archetypal characters who are each attached to one or more of the various functions.  Propp identifies seven broad character types as follows:  
+
+\begin{enumerate}
+\item The \emph{donor}
+\item The \emph{hero}
+\item The \emph{villain}
+\item The \emph{dispatcher}
+\item The \emph{helper}
+\item The \emph{prize}--usually a princess who the hero marries/acquires to conclude the story.
+\item The \emph{false hero}
+\end{enumerate}
+
+Chapter VIII deals with character most directly.  Propp begins by noting: ``The study of characters according to their functions, their distribution into categories, and their forms of appearance inevitably leads us to the problem of tale characters in general.  Previously, we sharply separated the question of who acts in the tale from the questions of the actions themselves.  The nomenclature and attributes of the characters are variable. . . By attributes we mean the . . . external qualities of the characters: their age, sex, status, external appearance, peculiarities of this appearance, and so forth.''
+
+The qualities of each of these characters can be described as follows. . . [to be continued]
+
+\bibliographystyle{apa}
+\bibliography{characterization}
+
+\end{document}

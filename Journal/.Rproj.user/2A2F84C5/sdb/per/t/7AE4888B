@@ -1,0 +1,17 @@
+{
+    "contents" : "\\documentclass{report}\n\\usepackage{natbib}\n\\makeindex\n\n\\begin{document}\n\n\\author{Ross T. Harrison}\n\\title{Lab Journal}\n\\date{Spring 2014}\n\\maketitle\n\n\\begin{abstract}\nThis is a journal of notes and experiments conducted as part of the requirements for ENGLISH 4/898 - SEC 002 \\emph{Characterization in Literature: a Macroanalysis}\n\\end{abstract}\n\n\\section{Character Social Networks}: (January 26, 2014)\n\nA reocurring idea is that character archetype can at least in part be determined by relations with other characters. This problem can be broken into several subproblems, first would be determining character existence, second the existance of a relationship between those characters, and thirdly the nature of that relationship. \n\nThe first subproblem is the most quantifiable. Since for many novels a complete, or semi-complete list of characters is available. Success metrics are therefore readily available. The second and third seem more difficult. Defining a correct answer for character relationship existence, much less quality, is much more difficult, if not intractable. \n\nRelationship existance at least seems to have a possible solution, comparing with human created character networks. This has the obvious drawback of being extremely labor intensive in constructing a test set. Therefore, unless such a corpus is readily available, a prudent course of action might be to investigate network creation in a more qualitative manner.\n\n\\section{Character Network Construction}: (January 26, 2014)\n\nCharacter networks can be constructed using dialogue (Elson, Dames McKewon)\nOr by simple coocurence in text (Park, or LOTR project)\n\nLike Park et-al, I'm interested in investigating social changes over time. However, while they intend to divide the text into chapeters, I believe that a more interesting view would be to construct a social graph for any given point in the text. \n\nMy idea is create a web interface that allows the user to upload text and a character list. Then produces a network similar to the one seen on the LOTR project. However, this graph will allow the user to adjust constants.\n\nThe user will also be able to \"scrub throught the text\" viewing the changes in real time. Using statements as the atomic units, the connections made would be further weighted by distance from current position using some kernel. A variety of options could be available:\n* A power function\n* a normal function\n\nThe idea then is to see in \"real time\" the changes in importance and strength of character relationships.\n\nExposing the constants and filters to the end users\n\n\\bibliographystyle{apa}\n\\bibliography{journal}\n\n\\end{document}",
+    "created" : 1390777439785.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "59273553",
+    "id" : "7AE4888B",
+    "lastKnownWriteTime" : 1390781030,
+    "path" : "~/School/ENG898-Macro-Analysis/Journal/journal.Rnw",
+    "project_path" : "journal.Rnw",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "sweave"
+}
