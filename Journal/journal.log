@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.14)  26 JAN 2014 17:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.1.14)  3 FEB 2014 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -177,33 +177,58 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
+Overfull \hbox (1.4863pt too wide) in paragraph at lines 66--66
+[]\OT1/cmr/bx/n/14.4 Structural Anal-y-sis on So-cial Net-works Con-
+ []
 
-Package natbib Warning: Citation `park_structural_2013' on page 1 undefined on 
-input line 77.
+[1] [2]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 150.
 
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 150.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 162.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
+ [3] [4]
+Overfull \hbox (3.69453pt too wide) in paragraph at lines 281--281
+[]\OT1/cmr/bx/n/14.4 Stanford Pa-pers (pulled from their NLP site) 
+ []
+
+[5]
 No file journal.bbl.
+[6] (./journal.aux) )
+(\end occurred inside a group at level 1)
 
-Package natbib Warning: There were undefined citations.
-
-[1] (./journal.aux) ) 
+### simple group (level 1) entered at line 150 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 1978 strings out of 495031
- 27370 string characters out of 6181531
- 83129 words of memory out of 5000000
- 5173 multiletter control sequences out of 15000+600000
- 7934 words of font info for 28 fonts, out of 8000000 for 9000
+ 2011 strings out of 495031
+ 27932 string characters out of 6181531
+ 85129 words of memory out of 5000000
+ 5200 multiletter control sequences out of 15000+600000
+ 8241 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,6n,23p,374b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on journal.pdf (3 pages, 75900 bytes).
+ 38i,6n,23p,469b,216s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on journal.pdf (8 pages, 114000 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 63 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
