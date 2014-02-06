@@ -247,7 +247,8 @@ NVSVM espcicially bigram features performed well across the board, large and sho
 
 Utility? See what features are being used for sentiment analysis when it comes to it. Need to learn more about what features are in the SVMs in general.
 
-\subsection{Character Profile: Bobby Newmark \textit{Count Zero}}
+\
+\section{Character Profile: Bobby Newmark \textit{Count Zero}}
 \date{February 2, 2014}
 
 Bobby Newmark is an aspiring cyberspace cowboy. From the very beginning, Bobby is helpless. He is introduced near the moment of his death and is only saved through the intercession of an artificial intelligence. It is then revealed that the cyberspace deck (computer) he used to do is run (hack job) is borrowed. He has a handmedown a holographic pornography projector that he uses to give his room "a sense of space". Even his memories aren't his. He has flashbacks related to a show that his mother watched while he was in Utero. The nature of the delivery has left him with ghost memories. He lives in a slum called Barrytown where nobody has much. His outfit is a simple black tshirt with black jeans, and sandals.
@@ -255,6 +256,38 @@ Bobby Newmark is an aspiring cyberspace cowboy. From the very beginning, Bobby i
 Bobby Newmark is the personification of dehumanization that is characteristic of Cyberpunk, and Gibson. His things, look, and identity are of no concequence, nor are they his own.
 
 Pulling this out of the structure could be difficult if Bobby wasn't the only character in the first couple of scenes. Lack of resources, and agency could be tough to put together. However modeling them as X does something to Y, could be effective. Since things are always happening to Bobby. At least in the begining. 
+
+\date{February 5, 2014}
+As the novel shifts into its second phase, bobby becomes ware of his inferiority.
+
+paraphrases
+\item
+  ``Here I am with a serious operator (crime muscle) and I pull a total Wilson (mistake)''
+\item
+  ``'Was he stupid?' Bobby immediately regretted the question.''
+\item
+  ``Lucas stood with Bobby directly in front of him, like a small child.''
+
+Obviously the exact meaning of these phrases, and analyzing them in context would be a monumental undertaking. However, I think that because language like that appears near Bobby frequently could show up in a topic model. 
+
+Because this novel seperates naratives it could have similar qualities as A Song if Ice and Fire. However, I haven't reached the point where the characters are in the same room. So I don't know if the strict narrative limits will be followed as in ASOIF, or not.
+
+\section{Latent Diriclet Allocation}
+\date{February 5, 2014}
+
+\textit{reading wikipedia article.}
+
+This came up when reading about topic modeling, and Dr. Jockers had mentioned previously.
+
+Oh hey cool, Andrew Ng is involved.
+
+It seems to me that running this kind of analysis would require a large set of topic related words before analysis can begin. This would be fine for a small corpus, but the analysis of a diverse one presents a problem of where these topics are retrieved. Is there some preexisting database?
+
+Unsure how it works. Will have to run or see example to understand.
+
+``The Bayesian formulation tends to perform better on small datasets because Bayesian methods can avoid overfitting the data.'' Seen previously in the standfor paper on baselines and bigrams.
+
+Has been applied to images. \href{http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2007_102.pdf}{article}.
 
 \bibliographystyle{apa}
 \bibliography{journal}
