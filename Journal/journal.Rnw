@@ -289,6 +289,12 @@ Unsure how it works. Will have to run or see example to understand.
 
 Has been applied to images. \href{http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2007_102.pdf}{article}.
 
+\section{NER Acquaintance}
+
+After running a couple of experiment with the Name Entity Recognition program from Stanford. I am heartened for  couple reasons. One, the names that appear are relatively consistent. There are a couple of outliers, but overall, most of the occurences converged on one title for each character. Also the NER only took about a minute to tag ``War and Peace'', assuming most of the books in the corpus will be shorter, 20,000 is doable. It is 14 days of run time total, but numerous jobs could be spun up in order to process the set more quickly. And it only has to be done once.
+
+Next I'll work on parsing the resulting set matrices that represent the occurence of characters by sentence.
+
 \bibliographystyle{apa}
 \bibliography{journal}
 
