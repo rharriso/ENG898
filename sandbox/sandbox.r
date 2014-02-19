@@ -19,3 +19,30 @@ end.metadata.v <- text.v[end.v+1:length(text.v)]
 metadata.v <- c(start.metadata.v, end.metadata.v)
 
 novel.v <- text.v[start.v:end.v]
+
+#
+# War and peace tagged in sentences
+#
+library(stringr)
+sentences <- scan("texts/war_and_peace.out.txt", character(0), sep=".")
+i <- 0
+
+for(sentence in sentences){
+  # people <- grep("\w+\\PERSON", sentence)  
+  print(i)
+  print(sentence)
+
+
+  if (i > 1000){
+    break 
+  }
+
+  i <- i+1
+}
+
+# match and find in sentence
+s <- sentences[999]
+starr <- unlist(strsplit(s, " "))
+match_indices <- grep("/PERSON", starr)
+matches <- starr[match_indices]
+names <- gsub("/PERSON", "", matches) 
