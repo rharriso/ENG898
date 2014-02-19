@@ -25,20 +25,6 @@ novel.v <- text.v[start.v:end.v]
 #
 library(stringr)
 sentences <- scan("texts/war_and_peace.out.txt", character(0), sep=".")
-i <- 0
-
-for(sentence in sentences){
-  # people <- grep("\w+\\PERSON", sentence)  
-  print(i)
-  print(sentence)
-
-
-  if (i > 1000){
-    break 
-  }
-
-  i <- i+1
-}
 
 # match and find in sentence
 s <- sentences[999]
