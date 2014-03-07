@@ -1,5 +1,5 @@
 \documentclass{report}
-\usepackage{natbib}
+\usepackage[backend=bibtex]{biblatex}
 \makeindex
 
 \begin{document}
@@ -295,7 +295,28 @@ After running a couple of experiment with the Name Entity Recognition program fr
 
 Next I'll work on parsing the resulting set matrices that represent the occurence of characters by sentence.
 
-\bibliographystyle{apa}
-\bibliography{journal}
+\section{Go web server - March 5, 2014}
+
+Since figuring out how to use the NER command line tools, I've been spending my time setting up a web application that can process and display the network results. For the server application I've been using go. There are a couple of reasons for this. Go has a great support for creating web apps. Go has a great performance when compared to R. I created equivalent processin in R and in Go and the Go application ran in less than a second, while the R code took about 10. By using GO I'll be able to write a web client application that allows the user to manipulate parameters that govrn how the network is constructed. 
+
+For presentation I've started by use D3's force directed graph, I'm not sure if I'll stick with that much longer, but I'm going to mess with its configuration some more before moving on.
+
+<<label='Create References'>>=
+require(knitr) # Needed for write_bib()
+
+# Load some packages to the session:
+require(xtable)
+require(ggplot2)
+
+# Select packages to cite:
+citPkgs <- names(sessionInfo()$otherPkgs)
+# Write the bibtex file:
+write_bib(citPkgs, file="journal.bib")
+@
+
+
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{journal.bib}
 
 \end{document}
